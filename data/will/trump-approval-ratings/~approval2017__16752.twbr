@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.20.0818.0857                               -->
+<workbook source-build='2020.2.5 (20202.20.0818.0857)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='approval_polllist' inline='true' name='federated.0nqnv201lwrlr71409a75023ntqw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='approval_polllist' name='textscan.1oaenep0l6xtnn1da564w0jx7tob'>
+            <connection class='textscan' directory='C:/Users/wpete/Desktop/BC20.21/1 - F_20/Viz/miniproj2/data/will/trump-approval-ratings' filename='approval_polllist.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1oaenep0l6xtnn1da564w0jx7tob' name='approval_polllist.csv' table='[approval_polllist#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='president' ordinal='0' />
+            <column datatype='string' name='subgroup' ordinal='1' />
+            <column datatype='date' name='modeldate' ordinal='2' />
+            <column datatype='date' name='startdate' ordinal='3' />
+            <column datatype='date' name='enddate' ordinal='4' />
+            <column datatype='string' name='pollster' ordinal='5' />
+            <column datatype='string' name='grade' ordinal='6' />
+            <column datatype='integer' name='samplesize' ordinal='7' />
+            <column datatype='string' name='population' ordinal='8' />
+            <column datatype='real' name='weight' ordinal='9' />
+            <column datatype='integer' name='influence' ordinal='10' />
+            <column datatype='real' name='approve' ordinal='11' />
+            <column datatype='real' name='disapprove' ordinal='12' />
+            <column datatype='real' name='adjusted_approve' ordinal='13' />
+            <column datatype='real' name='adjusted_disapprove' ordinal='14' />
+            <column datatype='string' name='multiversions' ordinal='15' />
+            <column datatype='boolean' name='tracking' ordinal='16' />
+            <column datatype='string' name='url' ordinal='17' />
+            <column datatype='integer' name='poll_id' ordinal='18' />
+            <column datatype='integer' name='question_id' ordinal='19' />
+            <column datatype='date' name='createddate' ordinal='20' />
+            <column datatype='string' name='timestamp' ordinal='21' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1oaenep0l6xtnn1da564w0jx7tob' name='approval_polllist.csv' table='[approval_polllist#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='president' ordinal='0' />
+            <column datatype='string' name='subgroup' ordinal='1' />
+            <column datatype='date' name='modeldate' ordinal='2' />
+            <column datatype='date' name='startdate' ordinal='3' />
+            <column datatype='date' name='enddate' ordinal='4' />
+            <column datatype='string' name='pollster' ordinal='5' />
+            <column datatype='string' name='grade' ordinal='6' />
+            <column datatype='integer' name='samplesize' ordinal='7' />
+            <column datatype='string' name='population' ordinal='8' />
+            <column datatype='real' name='weight' ordinal='9' />
+            <column datatype='integer' name='influence' ordinal='10' />
+            <column datatype='real' name='approve' ordinal='11' />
+            <column datatype='real' name='disapprove' ordinal='12' />
+            <column datatype='real' name='adjusted_approve' ordinal='13' />
+            <column datatype='real' name='adjusted_disapprove' ordinal='14' />
+            <column datatype='string' name='multiversions' ordinal='15' />
+            <column datatype='boolean' name='tracking' ordinal='16' />
+            <column datatype='string' name='url' ordinal='17' />
+            <column datatype='integer' name='poll_id' ordinal='18' />
+            <column datatype='integer' name='question_id' ordinal='19' />
+            <column datatype='date' name='createddate' ordinal='20' />
+            <column datatype='string' name='timestamp' ordinal='21' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>president</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[president]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>president</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>subgroup</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[subgroup]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>subgroup</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>modeldate</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[modeldate]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>modeldate</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>startdate</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[startdate]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>startdate</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>enddate</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[enddate]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>enddate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pollster</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pollster]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>pollster</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>grade</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[grade]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>grade</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>samplesize</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[samplesize]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>samplesize</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[population]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>population</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weight</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[weight]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>weight</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>influence</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[influence]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>influence</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>approve</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[approve]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>approve</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>disapprove</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[disapprove]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>disapprove</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>adjusted_approve</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[adjusted_approve]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>adjusted_approve</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>adjusted_disapprove</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[adjusted_disapprove]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>adjusted_disapprove</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>multiversions</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[multiversions]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>multiversions</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tracking</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[tracking]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>tracking</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>url</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[url]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>url</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>poll_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[poll_id]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>poll_id</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>question_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[question_id]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>question_id</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>createddate</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[createddate]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>createddate</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>timestamp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[timestamp]</local-name>
+            <parent-name>[approval_polllist.csv]</parent-name>
+            <remote-alias>timestamp</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='approval_polllist.csv' datatype='table' name='[__tableau_internal_object_id__].[approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236]' role='measure' type='quantitative' />
+      <column caption='Adjusted Approve' datatype='real' name='[adjusted_approve]' role='measure' type='quantitative' />
+      <column caption='Adjusted Disapprove' datatype='real' name='[adjusted_disapprove]' role='measure' type='quantitative' />
+      <column caption='Approve' datatype='real' name='[approve]' role='measure' type='quantitative' />
+      <column caption='Createddate' datatype='date' name='[createddate]' role='dimension' type='ordinal' />
+      <column caption='Disapprove' datatype='real' name='[disapprove]' role='measure' type='quantitative' />
+      <column caption='Enddate' datatype='date' name='[enddate]' role='dimension' type='ordinal' />
+      <column caption='Grade' datatype='string' name='[grade]' role='dimension' type='nominal' />
+      <column caption='Influence' datatype='integer' name='[influence]' role='measure' type='quantitative' />
+      <column caption='Modeldate' datatype='date' name='[modeldate]' role='dimension' type='quantitative' />
+      <column caption='Multiversions' datatype='string' name='[multiversions]' role='dimension' type='nominal' />
+      <column caption='Poll Id' datatype='integer' name='[poll_id]' role='dimension' type='ordinal' />
+      <column caption='Pollster' datatype='string' name='[pollster]' role='dimension' type='nominal' />
+      <column caption='Population' datatype='string' name='[population]' role='dimension' type='nominal' />
+      <column caption='President' datatype='string' name='[president]' role='dimension' type='nominal' />
+      <column caption='Question Id' datatype='integer' name='[question_id]' role='dimension' type='ordinal' />
+      <column caption='Samplesize' datatype='integer' name='[samplesize]' role='measure' type='quantitative' />
+      <column caption='Startdate' datatype='date' name='[startdate]' role='dimension' type='ordinal' />
+      <column caption='Subgroup' datatype='string' name='[subgroup]' role='dimension' type='nominal' />
+      <column caption='Timestamp' datatype='string' name='[timestamp]' role='dimension' type='nominal' />
+      <column caption='Tracking' datatype='boolean' name='[tracking]' role='dimension' type='nominal' />
+      <column caption='Url' datatype='string' name='[url]' role='dimension' type='nominal' />
+      <column caption='Weight' datatype='real' name='[weight]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='10000' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='approval_polllist.csv' id='approval_polllist.csv_5CC39CE41C714B36B5ECEE10A2A5B236'>
+            <properties context=''>
+              <relation connection='textscan.1oaenep0l6xtnn1da564w0jx7tob' name='approval_polllist.csv' table='[approval_polllist#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='president' ordinal='0' />
+                  <column datatype='string' name='subgroup' ordinal='1' />
+                  <column datatype='date' name='modeldate' ordinal='2' />
+                  <column datatype='date' name='startdate' ordinal='3' />
+                  <column datatype='date' name='enddate' ordinal='4' />
+                  <column datatype='string' name='pollster' ordinal='5' />
+                  <column datatype='string' name='grade' ordinal='6' />
+                  <column datatype='integer' name='samplesize' ordinal='7' />
+                  <column datatype='string' name='population' ordinal='8' />
+                  <column datatype='real' name='weight' ordinal='9' />
+                  <column datatype='integer' name='influence' ordinal='10' />
+                  <column datatype='real' name='approve' ordinal='11' />
+                  <column datatype='real' name='disapprove' ordinal='12' />
+                  <column datatype='real' name='adjusted_approve' ordinal='13' />
+                  <column datatype='real' name='adjusted_disapprove' ordinal='14' />
+                  <column datatype='string' name='multiversions' ordinal='15' />
+                  <column datatype='boolean' name='tracking' ordinal='16' />
+                  <column datatype='string' name='url' ordinal='17' />
+                  <column datatype='integer' name='poll_id' ordinal='18' />
+                  <column datatype='integer' name='question_id' ordinal='19' />
+                  <column datatype='date' name='createddate' ordinal='20' />
+                  <column datatype='string' name='timestamp' ordinal='21' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='approval_polllist' name='federated.0nqnv201lwrlr71409a75023ntqw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0nqnv201lwrlr71409a75023ntqw'>
+            <column caption='Adjusted Approve' datatype='real' name='[adjusted_approve]' role='measure' type='quantitative' />
+            <column caption='Adjusted Disapprove' datatype='real' name='[adjusted_disapprove]' role='measure' type='quantitative' />
+            <column-instance column='[adjusted_approve]' derivation='Avg' name='[avg:adjusted_approve:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[adjusted_disapprove]' derivation='Avg' name='[avg:adjusted_disapprove:qk]' pivot='key' type='quantitative' />
+            <column caption='Enddate' datatype='date' name='[enddate]' role='dimension' type='ordinal' />
+            <column-instance column='[enddate]' derivation='Week' name='[wk:enddate:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0nqnv201lwrlr71409a75023ntqw].[avg:adjusted_disapprove:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='title' class='0' field='[federated.0nqnv201lwrlr71409a75023ntqw].[avg:adjusted_disapprove:qk]' scope='rows' value='' />
+            <format attr='title' class='0' field='[federated.0nqnv201lwrlr71409a75023ntqw].[avg:adjusted_approve:qk]' scope='rows' value='Avg Adj. Ratings' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='52' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0nqnv201lwrlr71409a75023ntqw].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0nqnv201lwrlr71409a75023ntqw].[avg:adjusted_approve:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0nqnv201lwrlr71409a75023ntqw].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0nqnv201lwrlr71409a75023ntqw].[avg:adjusted_disapprove:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0nqnv201lwrlr71409a75023ntqw].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0nqnv201lwrlr71409a75023ntqw].[avg:adjusted_approve:qk] + [federated.0nqnv201lwrlr71409a75023ntqw].[avg:adjusted_disapprove:qk])</rows>
+        <cols>[federated.0nqnv201lwrlr71409a75023ntqw].[wk:enddate:qk]</cols>
+      </table>
+      <simple-id uuid='{A41E046A-5294-4959-ABD9-BAEBCE68A2EA}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0nqnv201lwrlr71409a75023ntqw].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{709BAEBC-4742-4F7F-8D88-67E7D2A61E3E}' />
+    </window>
+  </windows>
+</workbook>
