@@ -1,0 +1,1152 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.0918.1727                               -->
+<workbook original-version='18.1' source-build='2020.3.1 (20203.20.0918.1727)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='police_killings (police_killings)' inline='true' name='federated.19ic1ti0w8cbv814vy7dw1xjq997' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='police_killings' name='excel-direct.0ch4pk71juxzkn16pjz2j0hwt7lr'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/erin.corcoran/Desktop/miniproj2/erin_data/police-killings/police_killings.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0ch4pk71juxzkn16pjz2j0hwt7lr' name='police_killings' table='[police_killings$]' type='table'>
+          <columns gridOrigin='A1:AI468:no:A1:AI468:0' header='yes' outcome='2'>
+            <column datatype='string' name='name' ordinal='0' />
+            <column datatype='integer' name='age' ordinal='1' />
+            <column datatype='string' name='gender' ordinal='2' />
+            <column datatype='string' name='raceethnicity' ordinal='3' />
+            <column datatype='real' name='proportion of race' ordinal='4' />
+            <column datatype='string' name='month' ordinal='5' />
+            <column datatype='integer' name='day' ordinal='6' />
+            <column datatype='integer' name='year' ordinal='7' />
+            <column datatype='string' name='streetaddress' ordinal='8' />
+            <column datatype='string' name='city' ordinal='9' />
+            <column datatype='string' name='state' ordinal='10' />
+            <column datatype='real' name='latitude' ordinal='11' />
+            <column datatype='real' name='longitude' ordinal='12' />
+            <column datatype='integer' name='state_fp' ordinal='13' />
+            <column datatype='integer' name='county_fp' ordinal='14' />
+            <column datatype='integer' name='tract_ce' ordinal='15' />
+            <column datatype='integer' name='geo_id' ordinal='16' />
+            <column datatype='integer' name='county_id' ordinal='17' />
+            <column datatype='string' name='namelsad' ordinal='18' />
+            <column datatype='string' name='lawenforcementagency' ordinal='19' />
+            <column datatype='string' name='cause' ordinal='20' />
+            <column datatype='string' name='armed' ordinal='21' />
+            <column datatype='integer' name='pop' ordinal='22' />
+            <column datatype='real' name='share_white' ordinal='23' />
+            <column datatype='real' name='share_black' ordinal='24' />
+            <column datatype='real' name='share_hispanic' ordinal='25' />
+            <column datatype='integer' name='p_income' ordinal='26' />
+            <column datatype='integer' name='h_income' ordinal='27' />
+            <column datatype='integer' name='county_income' ordinal='28' />
+            <column datatype='real' name='comp_income' ordinal='29' />
+            <column datatype='string' name='county_bucket' ordinal='30' />
+            <column datatype='integer' name='nat_bucket' ordinal='31' />
+            <column datatype='real' name='pov' ordinal='32' />
+            <column datatype='real' name='urate' ordinal='33' />
+            <column datatype='real' name='college' ordinal='34' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0ch4pk71juxzkn16pjz2j0hwt7lr' name='police_killings' table='[police_killings$]' type='table'>
+          <columns gridOrigin='A1:AI468:no:A1:AI468:0' header='yes' outcome='2'>
+            <column datatype='string' name='name' ordinal='0' />
+            <column datatype='integer' name='age' ordinal='1' />
+            <column datatype='string' name='gender' ordinal='2' />
+            <column datatype='string' name='raceethnicity' ordinal='3' />
+            <column datatype='real' name='proportion of race' ordinal='4' />
+            <column datatype='string' name='month' ordinal='5' />
+            <column datatype='integer' name='day' ordinal='6' />
+            <column datatype='integer' name='year' ordinal='7' />
+            <column datatype='string' name='streetaddress' ordinal='8' />
+            <column datatype='string' name='city' ordinal='9' />
+            <column datatype='string' name='state' ordinal='10' />
+            <column datatype='real' name='latitude' ordinal='11' />
+            <column datatype='real' name='longitude' ordinal='12' />
+            <column datatype='integer' name='state_fp' ordinal='13' />
+            <column datatype='integer' name='county_fp' ordinal='14' />
+            <column datatype='integer' name='tract_ce' ordinal='15' />
+            <column datatype='integer' name='geo_id' ordinal='16' />
+            <column datatype='integer' name='county_id' ordinal='17' />
+            <column datatype='string' name='namelsad' ordinal='18' />
+            <column datatype='string' name='lawenforcementagency' ordinal='19' />
+            <column datatype='string' name='cause' ordinal='20' />
+            <column datatype='string' name='armed' ordinal='21' />
+            <column datatype='integer' name='pop' ordinal='22' />
+            <column datatype='real' name='share_white' ordinal='23' />
+            <column datatype='real' name='share_black' ordinal='24' />
+            <column datatype='real' name='share_hispanic' ordinal='25' />
+            <column datatype='integer' name='p_income' ordinal='26' />
+            <column datatype='integer' name='h_income' ordinal='27' />
+            <column datatype='integer' name='county_income' ordinal='28' />
+            <column datatype='real' name='comp_income' ordinal='29' />
+            <column datatype='string' name='county_bucket' ordinal='30' />
+            <column datatype='integer' name='nat_bucket' ordinal='31' />
+            <column datatype='real' name='pov' ordinal='32' />
+            <column datatype='real' name='urate' ordinal='33' />
+            <column datatype='real' name='college' ordinal='34' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AI468:no:A1:AI468:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>raceethnicity</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[raceethnicity]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>raceethnicity</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>proportion of race</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[proportion of race]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>proportion of race</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>month</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[month]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>month</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[day]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>day</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>streetaddress</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[streetaddress]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>streetaddress</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state_fp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[state_fp]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>state_fp</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_fp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[county_fp]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>county_fp</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tract_ce</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[tract_ce]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>tract_ce</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geo_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[geo_id]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>geo_id</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[county_id]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>county_id</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>namelsad</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[namelsad]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>namelsad</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lawenforcementagency</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[lawenforcementagency]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>lawenforcementagency</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cause</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[cause]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>cause</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>armed</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[armed]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>armed</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pop</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pop]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>pop</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>share_white</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[share_white]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>share_white</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>share_black</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[share_black]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>share_black</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>share_hispanic</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[share_hispanic]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>share_hispanic</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>p_income</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[p_income]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>p_income</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>h_income</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[h_income]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>h_income</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_income</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[county_income]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>county_income</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>comp_income</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[comp_income]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>comp_income</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_bucket</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[county_bucket]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>county_bucket</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nat_bucket</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nat_bucket]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>nat_bucket</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pov</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pov]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>pov</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>urate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[urate]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>urate</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>college</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[college]</local-name>
+            <parent-name>[police_killings]</parent-name>
+            <remote-alias>college</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Calculation1' datatype='real' name='[Calculation_407153587401981953]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[proportion of race] * 100' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='police_killings' datatype='table' name='[__tableau_internal_object_id__].[police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Armed' datatype='string' name='[armed]' role='dimension' type='nominal' />
+      <column caption='Cause' datatype='string' name='[cause]' role='dimension' type='nominal' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='College' datatype='real' name='[college]' role='measure' type='quantitative' />
+      <column caption='Comp Income' datatype='real' name='[comp_income]' role='measure' type='quantitative' />
+      <column caption='County Bucket' datatype='string' name='[county_bucket]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='County Fp' datatype='integer' name='[county_fp]' role='measure' type='quantitative' />
+      <column caption='County Id' datatype='integer' name='[county_id]' role='dimension' type='ordinal' />
+      <column caption='County Income' datatype='integer' name='[county_income]' role='measure' type='quantitative' />
+      <column caption='Day' datatype='integer' name='[day]' role='dimension' type='quantitative' />
+      <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+      <column caption='Geo Id' datatype='integer' name='[geo_id]' role='dimension' type='ordinal' />
+      <column caption='H Income' datatype='integer' name='[h_income]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column caption='Lawenforcementagency' datatype='string' name='[lawenforcementagency]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Month' datatype='string' name='[month]' role='dimension' type='nominal' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Namelsad' datatype='string' name='[namelsad]' role='dimension' type='nominal' />
+      <column caption='Nat Bucket' datatype='integer' name='[nat_bucket]' role='measure' type='quantitative' />
+      <column caption='P Income' datatype='integer' name='[p_income]' role='measure' type='quantitative' />
+      <column caption='Pop' datatype='integer' name='[pop]' role='measure' type='quantitative' />
+      <column caption='Pov' datatype='real' name='[pov]' role='measure' type='quantitative' />
+      <column caption='Proportion Of Race' datatype='real' default-format='p0.00%' name='[proportion of race]' role='measure' type='quantitative' />
+      <column caption='Raceethnicity' datatype='string' name='[raceethnicity]' role='dimension' type='nominal' />
+      <column caption='Share Black' datatype='real' name='[share_black]' role='measure' type='quantitative' />
+      <column caption='Share Hispanic' datatype='real' name='[share_hispanic]' role='measure' type='quantitative' />
+      <column caption='Share White' datatype='real' name='[share_white]' role='measure' type='quantitative' />
+      <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='State Fp' datatype='integer' name='[state_fp]' role='measure' type='quantitative' />
+      <column caption='Streetaddress' datatype='string' name='[streetaddress]' role='dimension' type='nominal' />
+      <column caption='Tract Ce' datatype='integer' name='[tract_ce]' role='measure' type='quantitative' />
+      <column caption='Urate' datatype='real' name='[urate]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='name' />
+        <field-sort-custom-order field='age' />
+        <field-sort-custom-order field='gender' />
+        <field-sort-custom-order field='raceethnicity' />
+        <field-sort-custom-order field='proportion of race' />
+        <field-sort-custom-order field='Calculation_407153587401981953' />
+        <field-sort-custom-order field='month' />
+        <field-sort-custom-order field='day' />
+        <field-sort-custom-order field='year' />
+        <field-sort-custom-order field='streetaddress' />
+        <field-sort-custom-order field='city' />
+        <field-sort-custom-order field='state' />
+        <field-sort-custom-order field='latitude' />
+        <field-sort-custom-order field='longitude' />
+        <field-sort-custom-order field='state_fp' />
+        <field-sort-custom-order field='county_fp' />
+        <field-sort-custom-order field='tract_ce' />
+        <field-sort-custom-order field='geo_id' />
+        <field-sort-custom-order field='county_id' />
+        <field-sort-custom-order field='namelsad' />
+        <field-sort-custom-order field='lawenforcementagency' />
+        <field-sort-custom-order field='cause' />
+        <field-sort-custom-order field='armed' />
+        <field-sort-custom-order field='pop' />
+        <field-sort-custom-order field='share_white' />
+        <field-sort-custom-order field='share_black' />
+        <field-sort-custom-order field='share_hispanic' />
+        <field-sort-custom-order field='p_income' />
+        <field-sort-custom-order field='h_income' />
+        <field-sort-custom-order field='county_income' />
+        <field-sort-custom-order field='comp_income' />
+        <field-sort-custom-order field='county_bucket' />
+        <field-sort-custom-order field='nat_bucket' />
+        <field-sort-custom-order field='pov' />
+        <field-sort-custom-order field='urate' />
+        <field-sort-custom-order field='college' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='police_killings' id='police!killings_5D3B980F99F94BA99DA3D5F8FC4B2A83'>
+            <properties context=''>
+              <relation connection='excel-direct.0ch4pk71juxzkn16pjz2j0hwt7lr' name='police_killings' table='[police_killings$]' type='table'>
+                <columns gridOrigin='A1:AI468:no:A1:AI468:0' header='yes' outcome='2'>
+                  <column datatype='string' name='name' ordinal='0' />
+                  <column datatype='integer' name='age' ordinal='1' />
+                  <column datatype='string' name='gender' ordinal='2' />
+                  <column datatype='string' name='raceethnicity' ordinal='3' />
+                  <column datatype='real' name='proportion of race' ordinal='4' />
+                  <column datatype='string' name='month' ordinal='5' />
+                  <column datatype='integer' name='day' ordinal='6' />
+                  <column datatype='integer' name='year' ordinal='7' />
+                  <column datatype='string' name='streetaddress' ordinal='8' />
+                  <column datatype='string' name='city' ordinal='9' />
+                  <column datatype='string' name='state' ordinal='10' />
+                  <column datatype='real' name='latitude' ordinal='11' />
+                  <column datatype='real' name='longitude' ordinal='12' />
+                  <column datatype='integer' name='state_fp' ordinal='13' />
+                  <column datatype='integer' name='county_fp' ordinal='14' />
+                  <column datatype='integer' name='tract_ce' ordinal='15' />
+                  <column datatype='integer' name='geo_id' ordinal='16' />
+                  <column datatype='integer' name='county_id' ordinal='17' />
+                  <column datatype='string' name='namelsad' ordinal='18' />
+                  <column datatype='string' name='lawenforcementagency' ordinal='19' />
+                  <column datatype='string' name='cause' ordinal='20' />
+                  <column datatype='string' name='armed' ordinal='21' />
+                  <column datatype='integer' name='pop' ordinal='22' />
+                  <column datatype='real' name='share_white' ordinal='23' />
+                  <column datatype='real' name='share_black' ordinal='24' />
+                  <column datatype='real' name='share_hispanic' ordinal='25' />
+                  <column datatype='integer' name='p_income' ordinal='26' />
+                  <column datatype='integer' name='h_income' ordinal='27' />
+                  <column datatype='integer' name='county_income' ordinal='28' />
+                  <column datatype='real' name='comp_income' ordinal='29' />
+                  <column datatype='string' name='county_bucket' ordinal='30' />
+                  <column datatype='integer' name='nat_bucket' ordinal='31' />
+                  <column datatype='real' name='pov' ordinal='32' />
+                  <column datatype='real' name='urate' ordinal='33' />
+                  <column datatype='real' name='college' ordinal='34' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Count Victims Race'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='police_killings (police_killings)' name='federated.19ic1ti0w8cbv814vy7dw1xjq997' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19ic1ti0w8cbv814vy7dw1xjq997'>
+            <column-instance column='[name]' derivation='Count' name='[cnt:name:qk]' pivot='key' type='quantitative' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[raceethnicity]' derivation='None' name='[none:raceethnicity:nk]' pivot='key' type='nominal' />
+            <column caption='Raceethnicity' datatype='string' name='[raceethnicity]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='cols' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='cols' value='1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.19ic1ti0w8cbv814vy7dw1xjq997].[cnt:name:qk]</rows>
+        <cols>[federated.19ic1ti0w8cbv814vy7dw1xjq997].[none:raceethnicity:nk]</cols>
+      </table>
+      <simple-id uuid='{5E3E014A-98F9-4D5E-8D2B-391E8DC8E3C2}' />
+    </worksheet>
+    <worksheet name='Proportion Pop/Victims'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='police_killings (police_killings)' name='federated.19ic1ti0w8cbv814vy7dw1xjq997' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19ic1ti0w8cbv814vy7dw1xjq997'>
+            <column-instance column='[proportion of race]' derivation='Attribute' name='[attr:proportion of race:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[raceethnicity]' derivation='None' name='[none:raceethnicity:nk]' pivot='key' type='nominal' />
+            <column-instance column='[raceethnicity]' derivation='Count' name='[pcto:cnt:raceethnicity:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Proportion Of Race' datatype='real' default-format='p0.00%' name='[proportion of race]' role='measure' type='quantitative' />
+            <column caption='Raceethnicity' datatype='string' name='[raceethnicity]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.19ic1ti0w8cbv814vy7dw1xjq997].[pcto:cnt:raceethnicity:qk]' field-type='quantitative' major-origin='0.0' major-spacing='0.2' max='1.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.19ic1ti0w8cbv814vy7dw1xjq997].[attr:proportion of race:qk]' field-type='quantitative' major-origin='0.0' major-spacing='0.2' max='1.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <lod column='[federated.19ic1ti0w8cbv814vy7dw1xjq997].[attr:proportion of race:qk]' />
+            </encodings>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.19ic1ti0w8cbv814vy7dw1xjq997].[pcto:cnt:raceethnicity:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <lod column='[federated.19ic1ti0w8cbv814vy7dw1xjq997].[attr:proportion of race:qk]' />
+            </encodings>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.19ic1ti0w8cbv814vy7dw1xjq997].[attr:proportion of race:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <lod column='[federated.19ic1ti0w8cbv814vy7dw1xjq997].[attr:proportion of race:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.19ic1ti0w8cbv814vy7dw1xjq997].[pcto:cnt:raceethnicity:qk] + [federated.19ic1ti0w8cbv814vy7dw1xjq997].[attr:proportion of race:qk])</rows>
+        <cols>[federated.19ic1ti0w8cbv814vy7dw1xjq997].[none:raceethnicity:nk]</cols>
+      </table>
+      <simple-id uuid='{76B0C72C-C8C7-4ABA-967C-8D58FCFE67E3}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Count Victims Race'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.19ic1ti0w8cbv814vy7dw1xjq997].[attr:raceethnicity:nk]</field>
+            <field>[federated.19ic1ti0w8cbv814vy7dw1xjq997].[none:name:nk]</field>
+            <field>[federated.19ic1ti0w8cbv814vy7dw1xjq997].[none:raceethnicity:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{639EC714-D1E2-4310-8430-FF5A37D4E3CA}' />
+    </window>
+    <window class='worksheet' name='Proportion Pop/Victims'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.19ic1ti0w8cbv814vy7dw1xjq997].[none:name:nk]</field>
+            <field>[federated.19ic1ti0w8cbv814vy7dw1xjq997].[none:raceethnicity:nk]</field>
+            <field>[federated.19ic1ti0w8cbv814vy7dw1xjq997].[none:year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3E60E410-E7B2-40DA-88D6-E502B5DABA6A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Count Victims Race' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAMJklEQVR4nO3dzU8bZwLH8d/gsSF+wYRgQwhvgZBuYhJeopLQRomcSrSNVPXQVFVvK1V7
+      aA/dP2Gl7W3PPVR720MvbdWoSlsJNe8vDRFhiQjQ8moCLhgDiRMbv41nnj1EsWibXbvasU38
+      /D4nm8Qzg+2vn/HMMKMIIQSIJKQoilJR6oUgKiUGQFJjACQ1BkBSYwAvMMMwkMlkfvdzIQR0
+      Xcf27Ru/vU9PMYASuX37Nj799FN8/fXXSCaTf+ix8Xgc9+/fx9LSEm7duvW7f9c0DdeuXYOu
+      67+aXygUwv379//vZS8naqkXQFarq6t4+eWXMTw8jMXFRUxMTGB9fR3vvPMOpqenMTk5Cb/f
+      j6tXr8LhcOCtt97C559/DpfLhebmZnz55ZcYGBjA5OQkJiYmcPbsWVy6dAmxWAxvv/02EokE
+      YrEYvvrqK3i9XjidToyNjeG7777D+++/j7W1NZw5cwb37t2D3+8v9dNRMhwBSiSTyeCLL75A
+      KBRCY2Mjamtrsbm5iZGREfz444947733EAwGEYlEMD4+jqGhITx58gTz8/OoqKhAV1cXurq6
+      4PP5UFdXh4WFBWiahmPHjmFiYgLz8/O4ffs2Ojs74ff78eDBA+zduxddXV3o6+vD0tIS7ty5
+      U+qnoeQYQImoqorBwUHYbDYkEglcu3YNvb290HUdmqYhnU4DACwWC86ePYu6ujpYLBa8/vrr
+      aGpqQiqVgmEYcLlcsNvtEELA4XDA5XLBMAwAQGVlJaLRaHYVy+FwIJVKQQiBV155BefPn0dX
+      V1fJnoOdQOGe4NKYn59HTU0N4vE4IpEIgsEgdF2Hz+cDAAwPD8Pv92NsbAzxeBxvvvkmLl++
+      DE3TMDg4iNHRUaTTabS3t0NRFKiqiq2tLezZswfRaBTRaBSHDh3CxYsX4XQ6UVdXh7a2Nty9
+      exeVlZXwer24cOECPv744xI/E6WjKIrCACQkhMCVK1fg8/lQX19f6sUpmZIGYBgGKiq4Bkal
+      U9JjgbZvoiMqFX4Ek9QYAEmNAZDUGABJjQGQ1BgASY0BkNQYAEmNAZDU+PcAtKPFkxqujAVM
+      nebJIy1wO6sAMADa4WKJNP554d+mTvNPLXXZALgKRFJjACQ1BkBSYwAkNQZAUmMAJDUGQFJj
+      ACQ1BkBSYwAkNQZAUmMAJDUGQFJjACQ1BkBSYwAkNQZAUmMAJDUGQFJjACQ1BkBSYwAkNQZA
+      UmMAJDUGQFJjACQ1BkBSYwAkNdMCEELg2TW3/9ttop3GlLNDx+Nx3Lt3D5lMBr29vZiZmUEi
+      kUB/fz+CwSCCwSBeeukl1NfXmzE7ItOYNgIcO3YMu3fvxtTUFOx2Ow4cOICffvoJwWAQJ06c
+      wMzMDEcC2nFMGQHsdjumpqawtbUFr9cLi8WC2tpaTE9Po6qqCjabDYqiQAiBTCYDANB1nUFQ
+      Tmktbfo0tUwG6fTT6ZoSQDgcRjQaRX9/P9bX17G2tgYhBLxeL9bW1hCPxyGEgKIosFqt2cdt
+      v030PDarZvo0raoKm80GwKRVIMMwkE6nMTw8nJ3w6uoqDh48iM7OToyMjKCrqwuKopgxOyLT
+      mDICNDQ0oKGhIXt/9+7d2dv79u3Dvn37zJgNkem4H4CkxgBIagyApMYASGoMgKTGAEhqDICk
+      xgBIagyApMYASGoMgKTGAEhqDICkxgBIagyApMYASGoMgKTGAEhqDICkxgBIagyApMYASGoM
+      gKTGAEhqDICkxgBIagyApMYASGoMgKTGAEhqDICkxgBIagyApMYASGoMgKTGAEhqDICkxgBI
+      aqYFIIR47pXfhRAwDMOs2RCZypTrBKdSKYyPj6O2thYtLS24desWrFYrfD4fVldXEQ6H0d7e
+      jubmZjNmR2QaU0YARVHQ2NiIJ0+eIBaLQVEU9PT0wOFwYHNzE6+++ioCgcBzRwiiUjJlBLDZ
+      bHC73QiHw7Db7aivr8eNGzfQ0dEBq9UKVVVRUVEBIQQymQwAQNd1BkE5pbW06dPUMhmk00+n
+      a0oAuq4jkUggnU4jnU7D4/HAbrdjc3MTiUQCGxsbUBQFiqLAarVmH7f9NtHz2Kya6dO0qips
+      NhsAkwKIxWJYWVmB1WpFIpFAKBSCrus4cuQIHj16hEAggKNHj0JRFDNmR2QaUwJwu93o7u7O
+      3vd6vdnbHo8HHo/HjNkQmS6vAAzDwNTUFKxWK1wuFxobGwu9XERFkddWoOXlZYyMjGBhYQHX
+      r1+HruuFXi6iosgrAIfDgYcPH2J0dDS7RYeoHOS1ClRTU4PXXnsNkUgEBw4cKPQyERVNXh/l
+      Dx48wPXr16FpGh4+fFjoZSIqmrxGAJfLhUePHiEcDqOqqqrQy0RUNHkFEIvF0NfXh5MnT2Z3
+      IBCVg7wCcLvdmJycxPLyMjo6OjA4OFjo5SIqirwCqK6uxsDAAGKxGOrq6gq9TERFk1cAy8vL
+      GBsbQ1NTE2ZmZtDb2/vCHtagGwbuzYZMneaBplq4Hfxu9CLKexWop6cHi4uLUBTlhT6KU8sY
+      +Pu/rps6zb/9+TT6Du41dZpUHDkDSCaTCIfD8Hg8qKmpQXV1NXeEUdnI+U7OZDIIh8MIBAI4
+      f/48Ll26VIzlIiqKnCOAzWaDYRjY3NzEuXPn4PP5Xtj1f6LfyjkCbGxsYGhoCMlkEsPDw7h8
+      +fIL/R2AaLucI8DevXvxySefZO9z/Z/KSc538/T0NCKRCFZWVngkKJWdvLYCffbZZ9A0DW1t
+      bWhra4Pf7y/GshEVXM4Aenp60NzcjIWFBTidTp7bh8pKXuszQgiMjo5idnYWP/zwA78EU9nI
+      KwBVVZFMJrG2tgabzcbNoFQ28j4U4qOPPoKu66isrGQAVDbyGgGSySSi0Sh27dqFlZUVrgJR
+      2cg5AgghMDQ0hFAohIMHD2Jubg4ffPABLBZLMZaPqKDyWgXyeDxQVRUejwfd3d1881PZyLkK
+      pCgKOjs78fPPP+PmzZu4e/cuV4GobOQ1AqRSKRw+fBinTp2CqppyNkWiHSGvd7PT6UQgEEAo
+      FOKeYCoreQWgqioaGxthGAZPaU5lJa/NoFVVVTh+/Dj6+/uxsLDA7wBUNvI+L9A333wDIQTc
+      bnehl4moaPI+LUpPTw/W1tYwMDDAPcFUNvI+Pfri4iJ6enrw/fff87KnVDbyPj3648ePMT4+
+      jpqaGo4AVDby+oMYTdPw7rvvIhKJZC92R1QOco4A8/PzmJubw549e7B//35cvXqVq0BUNnKO
+      AG1tbfj222+hqip++eUXNDQ08O+CqWzkfCc7HA58+OGHqKioQHd3N9544w2uAlHZyHsz6IkT
+      J/7n/3m2c0xRFBiGASEELBYLhBDQdZ3HENGOZMq7MpFIYGRkBB6PB+3t7bhz5w5SqRQGBgYw
+      OzuLx48fo6mpidcXox3HlACsVit8Ph+WlpYQDofR2NgIj8eDyclJZDIZnDp1Cjdv3kRHR8ev
+      HldOh1SU0++ykxTqWX32epkSgKqqqKysBPD0otrP7qfTaVitViiKgoqKiuzqEADoul6SN006
+      nTF9mplMBpqmmT5dAjQtbf40t71epgSQTCaxvr6OSCSChoYGBAIBbGxsoLW1FYFAAIuLi9kQ
+      th9NWoojS4389v39Iaqq8tppBWKzmv/BYt32epkSwLP9Ai0tLXC5XGhtbUUqlUJzczPcbjdC
+      oRCOHj3KrUe045gSgN1ux/79+7P3nU5n9rbb7eYRpLRjcY8WSY0BkNQYAEmNAZDUGABJjQGQ
+      1BgASY0BkNQYAEmNAZDUGABJjQGQ1BgASY0BkNQYAEmNAZDUGABJjQGQ1BgASY0BkNQYAEmN
+      AZDUGABJjQGQ1BgASY0n7S+wJ/GUqac4rqpUYVMt5k1QcgygwP7yjwtImnhG6r+eO44zfftz
+      /0fKC1eBSGoMgKTGAEhqDICkxgBIagyApMYASGoMgKTGAEhqDICkxgBIagUPQAjBq6jTjmX6
+      wXCpVAoXL15ETU0NDh8+jOnpaSSTSXi9Xhw6dIgXy6YdxfQAtra2YLPZ0Nrail27dkEIgdOn
+      T+PGjRsQQkCIp8cGCyGyV5gvJlGAeRbzdynV81Yqhijs62V6ANXV1eju7sbc3Bw2NzezP3/2
+      yf9sxkII6Lpu9uxz0gvw5jEMo2i/SzHntRMYuvmvl77tOfwPFuw72vwr7UQAAAAASUVORK5C
+      YII=
+    </thumbnail>
+    <thumbnail height='192' name='Proportion Pop/Victims' width='192'>
+      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
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
