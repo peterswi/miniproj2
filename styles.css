@@ -1,6 +1,6 @@
 h1{
     font-weight: bold;
-    padding: 30px;
+   
 }
 
 
@@ -13,16 +13,14 @@ body {
     color: black;
 }
 
-h4 {
-    color: black;
-}
+
 
 img {
     border-radius: 10px;
     display: inline-block;
 }
-
-div p {
+/*
+div li {
     background-color: palegoldenrod;
     border:black 1px dashed;
     margin: auto;
@@ -31,7 +29,7 @@ div p {
     margin-bottom: 10px;
     padding: 10px;
 }
-
+*/
 
 #row{
     text-align: center;
@@ -42,9 +40,9 @@ h3{
     margin-right: auto;
     margin-top: 25px;
     display: block;
-    font-weight: bold;
     color: white;
 }
+
 
 #hate-crimes{
     background-color:#000034;
@@ -56,9 +54,11 @@ h3{
 
 #reflection {
     background-color: lightslategray;
+  
+    
 }
 
-.introduction {
+#introduction {
     text-align: left; 
 }
 
@@ -75,6 +75,12 @@ h3{
 }
 
 ul {
+    font-weight: normal;
+    text-align: left;
+    color: white;
+    font-size: 20;
+}
+ol {
     font-weight: normal;
     text-align: left;
     color: white;
