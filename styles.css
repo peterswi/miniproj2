@@ -32,9 +32,6 @@ div p {
     padding: 10px;
 }
 
-div {
-    align: center;
-}
 
 #row{
     text-align: center;
@@ -69,4 +66,9 @@ h3{
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+}
+
+h3 .questions{
+    color: white;
+    font-weight: normal;
 }
