@@ -44,7 +44,11 @@ h3{
 }
 
 
-
+.container{
+    padding: 30px;
+    border: 20px;
+    margin: 30px; 
+}
 
 #police-killings{
     background-color:#000034;
