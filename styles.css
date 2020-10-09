@@ -68,7 +68,15 @@ h3{
     align-items: center;
 }
 
-h3 .questions{
+.questions{
     color: white;
     font-weight: normal;
+    font-size: 20px;
+}
+
+ul {
+    font-weight: normal;
+    text-align: left;
+    color: white;
+    font-size: 20;
 }
