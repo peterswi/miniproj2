@@ -40,7 +40,10 @@ h3{
     color: white;
 }
 
-
+a{
+    color:white;
+    
+}
 .container{
     padding: 30px;
     border: 20px;
@@ -51,9 +54,16 @@ h3{
 #police-killings{
     background-color:#000034;
 }
+#police-killings h2{
+    color: white;
+}
 
 #reflection {
     background-color: lightslategray;
+}
+#reflection h2{
+    color:white;
+    
 }
 
 #caption{
